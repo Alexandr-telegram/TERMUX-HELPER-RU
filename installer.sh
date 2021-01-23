@@ -28,25 +28,25 @@ then
 	git clone https://github.com/pentestxr/Fludilka
 	git clone https://github.com/Denishnc/b0mb3r
 	git clone https://github.com/nandydark/Russianbomber
-else
-	if [ $numb = "2" ]
-	then
-		cd ..
-		mkdir ddos
-		cd ddos
-		pkg update
-		pkg upgrade
-		apt update
-		apt upgrade
-		pkg install python
-		pkg install php
-		pkg install python2
-		pkg install git
-		git clone https://github.com/649/Memcrashed-DDoS-Exploit/
-		git clone https://github.com/LimerBoy/Impulse
-		git clone https://github.com/RioBithub/ddos-termux
-		git clone https://github.com/cyweb/hammer
-		git clone https://github.com/wenfengshi/ddos-dos-tools
+
+if [ $numb = "2" ]
+then
+	cd ..
+	mkdir ddos
+	cd ddos
+	pkg update
+	pkg upgrade
+	apt update
+	apt upgrade
+	pkg install python
+	pkg install php
+	pkg install python2
+	pkg install git
+	git clone https://github.com/649/Memcrashed-DDoS-Exploit/
+	git clone https://github.com/LimerBoy/Impulse
+	git clone https://github.com/RioBithub/ddos-termux
+	git clone https://github.com/cyweb/hammer
+	git clone https://github.com/wenfengshi/ddos-dos-tools
 		fi
 	else
 		if [ $numb = "3" ] 
